@@ -1,0 +1,44 @@
+{
+  "note": "Auto-written by Mod Config Menu. Edit values in-game via the config menu.",
+  "meta": {
+    "game": "Palworld",
+    "vers": "0.1",
+    "auth": "UE4SS-mac",
+    "desc": "Minimap size / zoom / position",
+    "link": ""
+  },
+  "Minimap": {
+    "type": "object",
+    "desc": "Minimap appearance",
+    "data": {
+      "Size": {
+        "type": "integer",
+        "desc": "Minimap circle diameter in pixels (only the porthole; inner map scale stays fixed).",
+        "opts": { "min": 128, "max": 512, "step": 8 },
+        "init": 288,
+        "live": 288
+      },
+      "Zoom": {
+        "type": "float",
+        "desc": "Map zoom multiplier (higher = more zoomed in). Independent of size.",
+        "opts": { "min": 0.5, "max": 3.0, "step": 0.1 },
+        "init": 1.0,
+        "live": 1.0
+      },
+      "Position X": {
+        "type": "integer",
+        "desc": "Horizontal position of minimap center (percent of screen width).",
+        "opts": { "min": 0, "max": 100, "step": 1 },
+        "init": 9,
+        "live": 9
+      },
+      "Position Y": {
+        "type": "integer",
+        "desc": "Vertical position of minimap center (percent of screen height).",
+        "opts": { "min": 0, "max": 100, "step": 1 },
+        "init": 15,
+        "live": 15
+      }
+    }
+  }
+}

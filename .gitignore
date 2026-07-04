@@ -1,0 +1,19 @@
+# 공개 레포 = 배포물만. 개발 문서/원본/프로브/빌드 중간산출물 제외.
+.DS_Store
+
+# 개발 문서 · 핸드오프 (사내용)
+docs/
+HANDOFF.md
+
+# 제3자 원본 모드 (레퍼런스 — 배포 대상 아님)
+reference/
+
+# 개발용 프로브 (엔진 pak 로드 검증 도구 — 배포물 아님)
+probe/
+
+# AutoHatch (동작 확인됨, 이번 배포 제외 — 로컬 보존용)
+AutoHatch/
+
+# 빌드 산출물 (zip 은 GitHub Releases 애셋으로, update.json 은 모드 폴더 루트에 별도 커밋)
+dist/
+*.zip
