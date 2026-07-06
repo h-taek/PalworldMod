@@ -15,7 +15,7 @@ supported).
 
 | Mod | Description | Version |
 |---|---|---|
-| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. | `1.0.0` |
+| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. Auto-hides in dungeons and boss towers. | `1.1.0` |
 
 ## Installation
 

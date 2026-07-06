@@ -2,7 +2,8 @@
 
 정적 전체지도를 원형으로 크롭해 화면 구석에 띄우는 자체제작 미니맵이다. 크기·줌·위치를
 인게임 ModConfigMenu에서 실시간 조정하며, 타이틀↔월드 왕복만으로 반영된다(재시작 불필요).
-UE4SS 릴리즈에는 동봉하지 않고 별도 배포한다.
+던전·보스타워 등 지하 인스턴스(플레이어 Z < -15000) 진입 시 지상 지도가 무의미하므로
+미니맵을 자동으로 숨긴다. UE4SS 릴리즈에는 동봉하지 않고 별도 배포한다.
 
 ## 구성
 
@@ -18,13 +19,13 @@ MinimapWidget/
 │   └── MinimapFrame_P.utoc
 ├── package.sh                           배포 zip 빌드(Nexus 드롭인)
 └── dist/                                산출물 (package.sh 결과, git 미추적 권장)
-    └── MinimapWidget-v1.0.0-macOS.zip
+    └── MinimapWidget-v1.1.0-macOS.zip
 ```
 
 ## 배포 패키징 (GitHub + 매니저 자동업데이트)
 
 `bash package.sh` 실행 → 산출:
-- `dist/MinimapWidget-v1.0.0-macOS.zip` — 배포 zip(릴리즈 애셋으로 업로드)
+- `dist/MinimapWidget-v1.1.0-macOS.zip` — 배포 zip(릴리즈 애셋으로 업로드)
 - `dist/update.json` — 원격 버전 매니페스트(레포에 커밋)
 
 **zip 내부(매니저 임포트·수동 드롭인 둘 다 호환):**
