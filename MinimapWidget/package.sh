@@ -49,7 +49,7 @@ rm -rf "$BUILD"
 MODDST="$BUILD/Pal/Binaries/Win64/Mods/$MOD_ID"
 PAKDST="$BUILD/Pal/Content/Paks/LogicMods"
 mkdir -p "$MODDST/Scripts" "$PAKDST"
-cp "$SRC_MOD/Scripts/main.lua"                       "$MODDST/Scripts/"
+cp "$SRC_MOD/Scripts/"*.lua                           "$MODDST/Scripts/"   # main + 분리 모듈(maps/config/util)
 cp "$SRC_MOD/MinimapWidget.modconfig.json"           "$MODDST/"
 cp "$SRC_MOD/enabled.txt"                            "$MODDST/"
 cp "$SRC_PAK/MinimapFrame_P.pak"  "$SRC_PAK/MinimapFrame_P.ucas" "$SRC_PAK/MinimapFrame_P.utoc" "$PAKDST/"
