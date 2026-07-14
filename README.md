@@ -8,14 +8,15 @@ installed, enabled, and auto-updated through the
 [PalworldModManager](https://github.com/h-taek/PalworldModManager) app (manual drop-in also
 supported).
 
-> Platform: **macOS (Apple Silicon)** only. The content pak is Mac-cooked, so it does not
-> attach on Windows.
+> Platform: **tested on macOS (Apple Silicon).** It may also work on Windows, but that is
+> untested.
 
 ## Mods
 
 | Mod | Description | Version |
 |---|---|---|
-| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. Auto-hides in dungeons and boss towers. | `1.1.0` |
+| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. Auto-hides in dungeons and boss towers. | `1.3.0` |
+| [**ZenaraSkin**](ZenaraSkin/) | Player skin that swaps the appearance to the end-game tower boss **Zenara** (`WorldTreeBoss`). Borrows the game's own materials and textures, so it is self-contained. | `1.0.0` |
 
 ## Installation
 

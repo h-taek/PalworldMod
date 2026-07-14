@@ -21,3 +21,10 @@ AutoHatch/
 dist/
 *.zip
 .agentbridge/
+
+# ZenaraSkin/src/ : 게임 원본에서 추출한 의상 메시(6종)는 레포에 올리지 않는다.
+# loose .uasset/.uexp 원본을 그대로 공개하지 않기 위함(pak 은 패키징 배포물이라 별개).
+# 슬롯 폴더 구조만 .gitkeep 로 남겨 재빌드 시 게임에서 추출해 채워넣는다.
+# 머리·머리카락 스텁은 우리가 만든 빈 껍데기라 그대로 커밋한다.
+ZenaraSkin/src/Pal/Content/Pal/Model/Character/Player/Outfit/**/*.uasset
+ZenaraSkin/src/Pal/Content/Pal/Model/Character/Player/Outfit/**/*.uexp
