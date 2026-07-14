@@ -13,7 +13,8 @@ English: [README.md](README.md)
 
 | 모드 | 설명 | 버전 |
 |---|---|---|
-| [**MinimapWidget**](MinimapWidget/) | 정적 전체지도를 원형으로 크롭한 자체제작 미니맵. 크기/줌/위치를 인게임 ModConfigMenu에서 실시간 조정. 던전·보스타워 진입 시 자동으로 숨김. | `1.1.0` |
+| [**MinimapWidget**](MinimapWidget/) | 정적 전체지도를 원형으로 크롭한 자체제작 미니맵. 크기/줌/위치를 인게임 ModConfigMenu에서 실시간 조정. 던전·보스타워 진입 시 자동으로 숨김. | `1.3.0` |
+| [**ZenaraSkin**](ZenaraSkin/) | 플레이어 외형을 게임 내 최종 탑 보스 **제나라**(`WorldTreeBoss`)로 바꾸는 스킨. 게임 원본 재질·텍스처를 그대로 빌려 자립 동작. | `1.0.0` |
 
 ## 설치
 

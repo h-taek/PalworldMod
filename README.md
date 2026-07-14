@@ -15,7 +15,8 @@ supported).
 
 | Mod | Description | Version |
 |---|---|---|
-| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. Auto-hides in dungeons and boss towers. | `1.1.0` |
+| [**MinimapWidget**](MinimapWidget/) | Homemade minimap that crops the static full map into a circular porthole. Size / zoom / position are adjustable live in the in-game ModConfigMenu. Auto-hides in dungeons and boss towers. | `1.3.0` |
+| [**ZenaraSkin**](ZenaraSkin/) | Player skin that swaps the appearance to the end-game tower boss **Zenara** (`WorldTreeBoss`). Borrows the game's own materials and textures, so it is self-contained. | `1.0.0` |
 
 ## Installation
 
