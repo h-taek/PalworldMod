@@ -15,6 +15,11 @@ local function classify(lname)
     if string.find(lname, "dungeonfixedentrance", 1, true) then return "dungeon" end
     if string.find(lname, "goddessstatue",        1, true) then return "statue" end
     if string.find(lname, "palbox",               1, true) then return "base" end
+    -- 관측탑: 정적 상주(맵 전역 x22) 액터라 buildMarkers 1회 스캔으로 잡는다.
+    --   (필드보스·현상수배는 액터가 아니라 마스터 데이터테이블 DT_BossSpawnerLoactionData 에서
+    --    위치+종을 읽어 main 의 buildBossMarkers 가 그린다 — 여기 classify 대상 아님.
+    --    근거: docs/research/03_marker-survey.md)
+    if string.find(lname, "unlockmappoint",        1, true) then return "obs" end
     return nil
 end
 

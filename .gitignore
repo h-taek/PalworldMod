@@ -20,3 +20,4 @@ AutoHatch/
 # 빌드 산출물 (zip 은 GitHub Releases 애셋으로, update.json 은 모드 폴더 루트에 별도 커밋)
 dist/
 *.zip
+.agentbridge/
